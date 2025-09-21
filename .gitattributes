@@ -1,0 +1,2 @@
+ta-reversals/NQ_continuous_backadjusted_1m_cleaned.csv filter=lfs diff=lfs merge=lfs -text
+ta-reversals/output.csv filter=lfs diff=lfs merge=lfs -text
