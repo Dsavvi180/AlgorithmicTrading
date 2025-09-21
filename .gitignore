@@ -1,9 +1,26 @@
-# Ignore large files and data artifacts
+# OS / IDE noise
+.DS_Store
+.vscode/
+.idea/
+
+# Node
+node_modules/
+dist/
+build/
+
+# Python / notebooks / logs / models
+__pycache__/
+*.pyc
+*.ipynb
 *.keras
-*.csv
-*.out
 *.tfevents*
 logs/
-backtesting/*.csv
-marketDataNasdaqFutures/*.csv
-Transformers/DirectionalPredictions/googleColab/*.csv
+
+# All CSVs in these project areas (recursively)
+backtesting/**/*.csv
+marketDataNasdaqFutures/**/*.csv
+Transformers/DirectionalPredictions/googleColab/**/*.csv
+
+# Generic data artifacts (optional, comment out if you need them tracked)
+*.csv
+*.out
