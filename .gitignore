@@ -1,0 +1,9 @@
+# Ignore large files and data artifacts
+*.keras
+*.csv
+*.out
+*.tfevents*
+logs/
+backtesting/*.csv
+marketDataNasdaqFutures/*.csv
+Transformers/DirectionalPredictions/googleColab/*.csv

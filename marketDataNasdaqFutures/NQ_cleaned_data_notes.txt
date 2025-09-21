@@ -1,0 +1,7 @@
+NQ_continuous_backadjusted_1m_cleaned data is continous and back adjusted using roll ratio approach.
+
+All outliers and NaN values have been removed.
+
+Weekends MAY or MAY NOT be included.
+
+Further processing for NQ calendar trading hours, weekends, public holidays should be done.
