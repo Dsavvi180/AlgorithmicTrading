@@ -6,7 +6,6 @@ dist/
 build/
 __pycache__/
 *.pyc
-*.ipynb
 *.keras
 *.tfevents*
 logs/
