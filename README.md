@@ -32,7 +32,7 @@ This repository contains a collection of tools, notebooks, and web applications 
 
 ## Pipeline
 
-![Strategy Development Pipeline][strategyDevelopmentPipeline.png]
+![Strategy Development Pipeline](https://github.com/Dsavvi180/AlgorithmicTrading/blob/main/strategyDevelopmentPipeline.png)
 
 ---
 For questions or contributions, please open an issue or submit a pull request.
