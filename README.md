@@ -12,10 +12,12 @@ This repository contains a collection of tools, notebooks, and web applications 
  - Data has been cleaned, outliers removed, and very importantly the futures contracts have been backadjusted to create a continuous time series.
 
 *Pre-back-adjusted futures data: Raw contracts*
-![Pre-backadjusted futures data](https://github.com/Dsavvi180/AlgorithmicTrading/blob/main/preBackAdjustment.png)
+
+<img src="https://raw.githubusercontent.com/Dsavvi180/AlgorithmicTrading/main/preBackAdjustment.png" alt="Pre-backadjusted futures data" width="600">
 
 *Back-adjusted continuous futures data*
-![Back-adjusted continuous futures data](https://github.com/Dsavvi180/AlgorithmicTrading/blob/main/backAdjustedNQ.png)
+
+<img src="https://raw.githubusercontent.com/Dsavvi180/AlgorithmicTrading/main/backAdjustedNQ.png" alt="Back-adjusted continuous futures data" width="600">
 
 - **HMM-MarketRegime/**
   - Following a hidden markov model approach to market regime quantification 
@@ -38,7 +40,7 @@ This repository contains a collection of tools, notebooks, and web applications 
 
 ## Pipeline
 
-![Strategy Development Pipeline](https://github.com/Dsavvi180/AlgorithmicTrading/blob/main/strategyDevelopmentPipeline.png)
+<img src="https://raw.githubusercontent.com/Dsavvi180/AlgorithmicTrading/main/strategyDevelopmentPipeline.png" alt="Strategy Development Pipeline" width="500">
 
 ---
 For questions or contributions, please open an issue or submit a pull request.
