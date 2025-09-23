@@ -10,6 +10,7 @@ This repository contains a collection of tools, notebooks, and web applications 
 	- Provides raw and processed market data for Nasdaq futures, including minute-level CSVs, feature sets, metadata, and symbology files. This data is used for research, backtesting, and model training.
 
  - Data has been cleaned, outliers removed, and very importantly the futures contracts have been backadjusted to create a continuous time series.
+
 *Back-adjusted continuous futures data*
 ![Back-adjusted continuous futures data](https://github.com/Dsavvi180/AlgorithmicTrading/blob/main/backAdjustedNQ.png)
 
