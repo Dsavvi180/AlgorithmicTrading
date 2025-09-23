@@ -11,6 +11,9 @@ This repository contains a collection of tools, notebooks, and web applications 
 
  - Data has been cleaned, outliers removed, and very importantly the futures contracts have been backadjusted to create a continuous time series.
 
+*Pre-back-adjusted futures data: Raw contracts*
+![Pre-backadjusted futures data](https://github.com/Dsavvi180/AlgorithmicTrading/blob/main/preBackAdjustment.png)
+
 *Back-adjusted continuous futures data*
 ![Back-adjusted continuous futures data](https://github.com/Dsavvi180/AlgorithmicTrading/blob/main/backAdjustedNQ.png)
 
