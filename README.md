@@ -8,6 +8,8 @@ This repository contains a collection of tools, notebooks, and web applications 
 - **marketDataNasdaqFutures/**
 	- Provides raw and processed market data for Nasdaq futures, including minute-level CSVs, feature sets, metadata, and symbology files. This data is used for research, backtesting, and model training.
 
+ - Data has been cleaned, outliers removed, and very importantly the futures contracts have been backadjusted to create a continuous time series.
+
 - **ta-reversals/**
 	- Includes research notebooks (e.g., `ta-reversals.ipynb`) focused on technical analysis and reversal strategies.
 - **Transformers/DirectionalPredictions/**
@@ -24,16 +26,15 @@ The repository features a modern, responsive web application for backtesting and
 1. **Python Notebooks:**
 	- Open any `.ipynb` file in Jupyter or VS Code to explore and run backtesting experiments.
 
-2. **Web App:**
-	- Serve the `TradingViewCharts` directory with a local HTTP server (e.g., `python -m http.server`) to enable CSV data loading via fetch.
-	- Open `chart.html` in your browser to view the backtesting UI with preloaded NQ data.
-
-3. **Deep Learning Models:**
+2. **Deep Learning Models:**
 	- See `Transformers/DirectionalPredictions/` for transformer-based model training and evaluation.
 
 ## Notes
 - All data and code are organized for rapid experimentation and research in algorithmic trading.
-- The web UI is designed for clarity, speed, and ease of use, with all data loading automated.
+
+## Pipeline
+
+![Alt text]['Algorithmic Trading'/strategyDevelopmentPipeline.png]
 
 ---
 For questions or contributions, please open an issue or submit a pull request.
