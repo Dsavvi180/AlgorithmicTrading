@@ -39,7 +39,7 @@ This repository contains a collection of tools, notebooks, and web applications 
 
 ## Pipeline
 
-<img src="https://raw.githubusercontent.com/Dsavvi180/AlgorithmicTrading/main/strategyDevelopmentPipeline.png" alt="Strategy Development Pipeline" width="600">
+<img src="https://raw.githubusercontent.com/Dsavvi180/AlgorithmicTrading/main/images/strategyDevelopmentPipeline.png" alt="Strategy Development Pipeline" width="600">
 
 ---
 For questions or contributions, please open an issue or submit a pull request. Contact me via dsavvasavvi18@gmail.com
