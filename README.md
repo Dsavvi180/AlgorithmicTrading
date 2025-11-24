@@ -13,11 +13,11 @@ This repository contains a collection of tools, notebooks, and web applications 
 
 *Pre-back-adjusted futures data: Raw contracts*
 
-<img src="https://raw.githubusercontent.com/Dsavvi180/AlgorithmicTrading/main/preBackAdjustment.png" alt="Pre-backadjusted futures data" width="800">
+<img src="https://raw.githubusercontent.com/Dsavvi180/AlgorithmicTrading/images/preBackAdjustment.png" alt="Pre-backadjusted futures data" width="800">
 
 *Back-adjusted continuous futures data*
 
-<img src="https://raw.githubusercontent.com/Dsavvi180/AlgorithmicTrading/main/backAdjustedNQ.png" alt="Back-adjusted continuous futures data" width="800">
+<img src="https://raw.githubusercontent.com/Dsavvi180/AlgorithmicTrading/images/backAdjustedNQ.png" alt="Back-adjusted continuous futures data" width="800">
 
 - **HMM-MarketRegime/**
   - Following a hidden markov model approach to market regime quantification 
