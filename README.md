@@ -1,6 +1,6 @@
 # AlgoTrading Repository
 
-This repository contains a collection of tools, notebooks, and web applications for algorithmic trading research, backtesting, and data analysis. It is organized into several key components:
+This repository contains a collection of tools, notebooks, and web applications for algorithmic trading research, backtesting, and data analysis (Check out https://github.com/Dsavvi180/TopStepX-PropFirm-API for realtime data socket connections). It is organized into several key components:
 ## Repository Structure
 
 - **backtesting/**
