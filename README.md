@@ -22,8 +22,7 @@ This repository contains a collection of tools, notebooks, and web applications 
 - **HMM-MarketRegime/**
   - Following a hidden markov model approach to market regime quantification 
 
-- **ta-reversals/**
-	- Includes research notebooks (e.g., `ta-reversals.ipynb`) focused on technical analysis and reversal strategies.
+
 - **Transformers/DirectionalPredictions/**
 	- Houses deep learning experiments for directional prediction using transformer models. Contains training/validation data, model artifacts, logs, and a requirements file for reproducibility. The `googleColab/` subfolder includes Colab-ready notebooks and datasets.
 
