@@ -2,6 +2,9 @@
 
 This repository contains a collection of jupyter notebooks for exploring trading strategies. Extensive data wrangling has been done for data processing, feature engineering and label creation for downstream use in machine learning or strategy research. 
 
+
+Please note: some of the notebooks in this repository are incomplete and the ideas haven't been fully implemented due to other commitments.
+
 The primary source of data can be found in the below repository, where raw futures contracts from Databento have been back adjusted to form a continuous NQ futures time series: 
 
 - **marketDataNasdaqFutures/**
