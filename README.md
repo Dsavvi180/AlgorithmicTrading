@@ -17,7 +17,7 @@ The primary source of data can be found in the below repository, where raw futur
 
 <img src="https://raw.githubusercontent.com/Dsavvi180/AlgorithmicTrading/main/images/backAdjustedNQ.png" alt="Back-adjusted continuous futures data" width="800">
 
-- **HMM-MarketRegime/**
+- **RandomResearch/HMM-MarketRegime/**
   - Following a hidden markov model approach to market regime quantification 
 
 ## Getting Started
