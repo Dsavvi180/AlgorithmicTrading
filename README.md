@@ -1,33 +1,31 @@
 # AlgoTrading Repository
 
-This repository contains a collection of jupyter notebooks for exploring trading strategies. Extensive data wrangling has been done for data processing, feature engineering and label creation for downstream use in machine learning or strategy research. 
+This repository contains a collection of Jupyter notebooks exploring trading strategies, with extensive data wrangling for data processing, feature engineering, and label creation for downstream use in machine learning and strategy research.
 
+Please note: some notebooks are incomplete and the underlying ideas haven't been fully implemented.
 
-**Please note:** some of the notebooks in this repository are incomplete and the ideas haven't been fully implemented due to other commitments.
-
-The primary source of data can be found in the below repository, where raw futures contracts from Databento have been back adjusted to form a continuous NQ futures time series: 
+The primary data source is described below, where raw NQ futures contracts from Databento have been back-adjusted to form a continuous time series:
 
 - **marketDataNasdaqFutures/**
-	- Provides raw and processed market data for Nasdaq futures, including minute-level CSVs, feature sets, metadata, and symbology files. This data is used for research, backtesting, and model training.
+  - Provides raw and processed market data for Nasdaq futures, including minute-level CSVs, feature sets, metadata, and symbology files. Used for research, backtesting, and model training.
+  - Data has been cleaned, outliers removed, and the futures contracts back-adjusted to create a continuous time series.
 
- - Data has been cleaned, outliers removed, and very importantly the futures contracts have been backadjusted to create a continuous time series.
-
-*Pre-back-adjusted futures data: Raw contracts*
-
+*Pre-back-adjusted futures data: raw contracts*
 <img src="https://raw.githubusercontent.com/Dsavvi180/AlgorithmicTrading/main/images/preBackAdjustment.png" alt="Pre-backadjusted futures data" width="800">
 
 *Back-adjusted continuous futures data*
-
 <img src="https://raw.githubusercontent.com/Dsavvi180/AlgorithmicTrading/main/images/backAdjustedNQ.png" alt="Back-adjusted continuous futures data" width="800">
 
 - **RandomResearch/HMM-MarketRegime/**
-  - Following a hidden markov model approach to market regime quantification 
+  - Hidden Markov Model approach to market regime quantification.
 
 ## Getting Started
-1. **Python Notebooks:**
-	- Open any `.ipynb` file in Jupyter or VS Code to explore and run backtesting experiments.
+
+1. **Python Notebooks**
+   - Open any `.ipynb` file in Jupyter or VS Code to explore and run backtesting experiments.
 
 ## Notes
+
 - All data and code are organized for rapid experimentation and research in algorithmic trading.
 
 ## Pipeline
@@ -35,4 +33,5 @@ The primary source of data can be found in the below repository, where raw futur
 <img src="https://raw.githubusercontent.com/Dsavvi180/AlgorithmicTrading/main/images/strategyDevelopmentPipeline.png" alt="Strategy Development Pipeline" width="600">
 
 ---
+
 For questions or contributions, please open an issue or submit a pull request. Contact me via dsavvasavvi18@gmail.com
