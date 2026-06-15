@@ -1,11 +1,9 @@
 # AlgoTrading Repository
 
-This repository contains a collection of tools, notebooks, and web applications for algorithmic trading research, backtesting, and data analysis (Check out https://github.com/Dsavvi180/TopStepX-PropFirm-API for realtime data socket connections). It is organized into several key components:
-## Repository Structure
+This repository contains a collection of jupyter notebooks for exploring trading strategies. Extensive data wrangling has been done for data processing, feature engineering and label creation for downstream use in machine learning or strategy research. 
 
-- **backtesting/**
-	- Contains Jupyter notebooks for strategy development and backtesting, including feature engineering and signal generation using Python (e.g., `backtrader.ipynb`).
-   
+The primary source of data can be found in the below repository, where raw futures contracts from Databento have been back adjusted to form a continuous NQ futures time series: 
+
 - **marketDataNasdaqFutures/**
 	- Provides raw and processed market data for Nasdaq futures, including minute-level CSVs, feature sets, metadata, and symbology files. This data is used for research, backtesting, and model training.
 
