@@ -22,18 +22,10 @@ This repository contains a collection of tools, notebooks, and web applications 
 - **HMM-MarketRegime/**
   - Following a hidden markov model approach to market regime quantification 
 
-
-- **Transformers/DirectionalPredictions/**
-	- Houses deep learning experiments for directional prediction using transformer models. Contains training/validation data, model artifacts, logs, and a requirements file for reproducibility. The `googleColab/` subfolder includes Colab-ready notebooks and datasets.
-
-
 ## Getting Started
 1. **Python Notebooks:**
 	- Open any `.ipynb` file in Jupyter or VS Code to explore and run backtesting experiments.
-
-2. **Deep Learning Models:**
-	- See `Transformers/DirectionalPredictions/` for transformer-based model training and evaluation.
-
+ - 
 ## Notes
 - All data and code are organized for rapid experimentation and research in algorithmic trading.
 
