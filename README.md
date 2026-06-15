@@ -23,7 +23,7 @@ The primary source of data can be found in the below repository, where raw futur
 ## Getting Started
 1. **Python Notebooks:**
 	- Open any `.ipynb` file in Jupyter or VS Code to explore and run backtesting experiments.
- - 
+
 ## Notes
 - All data and code are organized for rapid experimentation and research in algorithmic trading.
 
